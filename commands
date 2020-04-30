@@ -1,0 +1,4 @@
+benchmarking commands:
+
+watch -n1 "lscpu | grep 'MHz' | awk '{print $1}'"
+watch -n0.5 sensors
